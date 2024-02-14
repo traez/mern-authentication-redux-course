@@ -1,0 +1,89 @@
+Timestamp: 2:26:00
+------------------------------------------------------------------------
+Things i learnt
+
+-With existing READme file when "npm init" ran. package.json description was picked from READme
+-With existing .js file in folder, node script too was filled in inside package.json upon creation
+-react-cookie used on the client side (in React components) to manage cookies, while cookie-parser used on the server side (with Express.js) to parse and handle cookies sent by the client
+-bcrypt is a bcrypt library for NodeJS. While bcryptjs is an "Optimized bcrypt in plain JavaScript with zero dependencies
+-"express-async-handler" middleware. Extra effizy to replace native async await
+-router.route("/profile").get(getUserProfile).put(updateUserProfile); route chaining when different methods for a single route
+-Batch relate API endpoint queries together in VScode ThunderClient extension, for ease of use
+-Learned app.use(express.urlencoded({ extended: true }));  HTML forms that submit data to the server.
+-To allow the Express server to properly retrieve and process cookies. 
+1] You may need to manually set the 'Cookie' header in your ThunderClient request to include the 'jwt' cookie. Example: `Cookie: jwt=your_actual_jwt_token`
+2] Use the `cookie-parser` middleware to parse incoming cookies. Access the 'jwt' cookie in your route using `req.cookies.jwt`. Example: `const token = req.cookies.jwt;`
+-Introduction to Redux, Redux Toolkit and React Redux. (Need to study this in depth)
+-in Vite instead of setting API route as environmental variable, set it under proxy in vite.config.js (similar to package.json proxy in Create react App)
+-npm install concurrently. Used in Node.js projects to run multiple commands concurrently, which can be useful for tasks like running both the frontend and backend servers simultaneously during development
+-npm i react-bootstrap react-icons bootstrap For CSS works
+-react-toastify intro. App provides an easy way to display toast notifications in your web applications. Toast notifications are non-intrusive, temporary messages that inform users about the status of an action or provide feedback.
+------------------------------------------------------------------------
+MERN Crash Course | JWT Authentication, Redux Toolkit, Deployment & More
+3:37:59 mins Traversy Media
+https://www.youtube.com/watch?v=R4AhvYORZRY&t=136s
+https://github.com/bradtraversy/mern-auth
+------------------------------------------------------------------------
+YouTube search
+https://www.youtube.com/results?search_query=+MERN+project+app+express&sp=EgYIBRABGAI%253D
+------------------------------------------------------------------------
+Previous Projects
+
+Building a Node.js app (as a JavaScript noob) 
+https://www.youtube.com/watch?v=wYALykLb5oY
+https://github.com/thecodercoder/dinosaur-generator
+Dino Ipsum - https://dinoipsum.com/
+Google API - https://rapidapi.com/neoscrap-net/api/google-search72
+https://rapidapi.com/search/images Page3
+
+How to Create a Express/Node + React Project | Node Backend + React Frontend 
+https://www.youtube.com/watch?v=w3vs4a03y3I
+
+Build a REST API with Node JS and Express | CRUD API Tutorial
+https://www.youtube.com/watch?v=l8WPWK9mS5M
+https://github.com/adrianhajdin/node_express_crud_api
+
+Serve a HTML Website or Single Page Application with Node and Express
+https://www.youtube.com/watch?v=fyc-4YmgLu0
+
+Build a Weather APP in Node JS 
+https://www.youtube.com/watch?v=C1m-pZGwwD4 
+https://github.com/deeppatel23/Weather-app
+
+How to Connect Node.js App to MongoDB
+https://www.youtube.com/watch?v=bhiEJW5poHU 
+
+Build Restful CRUD API with Node.js, Express and MongoDB in 45 minutes for Beginners from Scratch
+https://www.youtube.com/watch?v=9OfL9H6AmhQ (with MongoDB) 46mins
+
+MERN Stack Tutorial - Book Store Project 1.01mins 
+https://www.youtube.com/watch?v=-42K44A1oMA
+
+How to setup and deploy fullstack(MERN) application on Vercel and Render (with Github. Cules Coding)
+https://www.youtube.com/watch?v=ME3tMy5Q2qo
+https://github.com/thatanjan/mern-setup
+https://cules-coding.vercel.app/blog/how-to-setup-and-deploy-a-fullStack(mern)-application-on-vercel-and-render
+
+Build a Diary Web App using the MERN Stack! - Coding Tutorials by Umar Khan
+https://www.youtube.com/watch?v=rl7AVEi5hls
+2.28min with Github. MERN deploy Render (FE and BE)
+
+Full Stack MERN Todo App with MongoDB, React, Express, Node | Responsive + Deployment + Full Notes
+https://www.youtube.com/watch?v=giXuiotopO0
+2.22min MERN deploy Render (FE and BE)
+Notion ReadMe https://cyber-halibut-5bd.notion.site/Awesome-Todos-MERN-2f0ac0aadf564c39a6acd4652d9da698
+Github https://github.com/destocot/awesometodosyoutube
+LiveSite https://awesome-todos-youtube.onrender.com/
+
+MERN Recipe App with Authentication - Build & Deploy A React Intermediate Project
+https://www.youtube.com/watch?v=P43DW3HUUH8&t=423s
+2:37:48mins
+https://github.com/machadop1407/MERN-Recipe-App
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------

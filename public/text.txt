@@ -1,0 +1,5 @@
+considering below si structure of my app.
+is this line correct in my server.js file?   app.use(express.static(path.join(__dirname, '/backend/dist')));
+
+Root -> backend -> server.js
+Root -> backend -> dist -> index.html
