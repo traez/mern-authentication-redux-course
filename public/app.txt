@@ -18,11 +18,7 @@ Things i learnt
 -npm install concurrently. Used in Node.js projects to run multiple commands concurrently, which can be useful for tasks like running both the frontend and backend servers simultaneously during development
 -npm i react-bootstrap react-icons bootstrap For CSS works
 -react-toastify intro. App provides an easy way to display toast notifications in your web applications. Toast notifications are non-intrusive, temporary messages that inform users about the status of an action or provide feedback.
-------------------------------------------------------------------------
-MERN Crash Course | JWT Authentication, Redux Toolkit, Deployment & More
-3:37:59 mins Traversy Media
-https://www.youtube.com/watch?v=R4AhvYORZRY&t=136s
-https://github.com/bradtraversy/mern-auth
+-Static File Serving Order (When serving the frontend as static files from the backend): Ensure that the code for serving static files is placed after the code for handling API routes in your backend server. If not you'll get "Uncaught (in promise) SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON,"
 ------------------------------------------------------------------------
 YouTube search
 https://www.youtube.com/results?search_query=+MERN+project+app+express&sp=EgYIBRABGAI%253D
@@ -79,6 +75,11 @@ MERN Recipe App with Authentication - Build & Deploy A React Intermediate Projec
 https://www.youtube.com/watch?v=P43DW3HUUH8&t=423s
 2:37:48mins
 https://github.com/machadop1407/MERN-Recipe-App
+
+MERN Crash Course | JWT Authentication, Redux Toolkit, Deployment & More
+3:37:59 mins Traversy Media
+https://www.youtube.com/watch?v=R4AhvYORZRY&t=136s
+https://github.com/bradtraversy/mern-auth
 ------------------------------------------------------------------------
 ------------------------------------------------------------------------
 ------------------------------------------------------------------------

@@ -38,19 +38,4 @@ app.listen(port, () => console.log(`Server started on port ${port}`));
 
 /*
 import path from 'path';
-const __dirname = path.resolve();
-
-const rootDir = path.resolve(__dirname, '..');
-const buildDir = path.resolve(rootDir, 'server/build');
-
-//console.log("__dirname", __dirname)
-//console.log("rootDir", rootDir)
-
-app.use(express.static(buildDir));
-app.use("/auth", userRouter);
-app.use("/recipes", recipesRouter);
-
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(buildDir, "index.html"));
-});
 */
